@@ -13,3 +13,15 @@ function button2() {
 
 //q2
 //script written in task2.html;
+
+//q4
+function formValidation() {
+  let password = document.getElementById("password");
+
+  if (password.value == "12345678") {
+    document.getElementById("validation").innerText = "Form: Complete";
+    event.preventDefault();
+  } else {
+    alert("Incorrect Password!");
+  }
+}

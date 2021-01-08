@@ -16,3 +16,11 @@
   font-size: 300%;
   padding: 5px;
 }
+
+input[type="text"]:focus {
+  background-color: violet;
+}
+
+input[type="email"]:focus {
+  background-color: violet;
+}
