@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="task2">
+      <h1 class="flex">Task 2: Don't Hover...</h1>
+      <h2 class="flex">
+        <span id="onHover" class="onHover">Please DO NOT hover over me.</span>
+      </h2>
+    </div>
+    <script>
+      let action = document.getElementById("onHover");
+      action.addEventListener("mouseover", function (event) {
+        alert("Hey, whats your problem?! I asked you NOT to hover over me!");
+      });
+    </script>
+  </body>
+</html>
